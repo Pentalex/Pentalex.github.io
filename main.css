@@ -120,3 +120,81 @@ body{
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .coolcard{
+        height: 80vw;
+        width: 70vw;
+    }
+    .profilepic{
+        position: relative;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(-57%);
+        max-height: 80%;
+        max-width: 80%;
+        border-radius: 1vw;
+    }   
+    .typewrite{
+        position: relative;
+        top: 15%;  
+        margin: 0 auto;
+        font-size: 4vw;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);  
+    }
+    body{
+            height: calc(100vh - 8em);
+            padding: 0em;
+            color: rgba(255,255,255,.75);
+            font-family: 'Anonymous Pro', monospace;  
+            background-color: rgb(25,25,25);  
+        
+    }
+    .github{
+        position: relative;
+        display: block;
+        float: left;
+        height: 6vw;
+        left: 33%;
+        top: 13.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .youtube{
+        position: relative;
+        float: left;
+        display: block;
+        height:6vw;
+        left: 35%;
+        top: 13.8%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .twitch{
+        position: relative;
+        float: left;
+        display: block;
+        height: 6vw;
+        right: 0%;
+        left: 37%;
+        top: 14%;
+    }
+    .heart-shape:before{
+        color: rgb(194, 194, 194);
+        opacity: 30%;
+          content: "\2764";
+          font-size: 10vw;
+          position: fixed;
+        right: 0.3em;
+        bottom: 0;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
