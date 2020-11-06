@@ -1,0 +1,87 @@
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+p{
+    font-family: 'Victor Mono', monospace;
+    position: relative;
+    font-size: 1.5em;
+    padding-top: 5px;
+    left: 2%;
+}
+
+html{
+    min-height: 100%;
+    overflow: hidden;
+  }
+body{
+    height: calc(100vh - 8em);
+    padding: 5em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;  
+    background-color: rgb(25,25,25);  
+
+}
+.github{
+    position: relative;
+    float: left;
+    height: 18%;
+    top: 60%;
+}
+.youtube{
+    position: relative;
+    height: 18%;
+    left: 1%;
+    top: 58%;
+}
+.twitch{
+    position: relative;
+    height: 22%;
+    top: 59%;
+}
+
+
+.profilepic{
+    position: relative;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 95%;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 1.5%;
+
+}
+
+.typewrite{
+    position: relative;
+    top: 15%;  
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+}
+.coolcard{
+    position: relative;
+    top: 30%;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 0 2px rgb(195, 195, 195);
+    overflow: hidden;
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 2em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+* { color:#fff; text-decoration: none;}
