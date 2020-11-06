@@ -51,7 +51,21 @@ body{
     padding: 1.5%;
 
 }
-
+.heart-shape:before{
+    color: rgb(194, 194, 194);
+    opacity: 30%;
+      content: "\2764";
+      font-size: 3em;
+      position: fixed;
+    right: 0.3em;
+    bottom: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.heart-shape:hover:before{
+    color: rgb(255, 54, 54);
+    opacity: 100%;
+}
 .typewrite{
     position: relative;
     top: 15%;  

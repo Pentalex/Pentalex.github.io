@@ -1,10 +1,13 @@
 
 var app = document.getElementById('app');
+const donate = document.getElementById("donate");
 
 var typewriter = new Typewriter(app, {
     loop: true
 });
-
+donate.onclick = () => {
+    window.open("https://paypal.me/alex4160", "_blank");
+};
 typewriter.typeString("Hey! I'm Pentalex")
     .pauseFor(1500)
     .deleteAll()
@@ -20,3 +23,5 @@ typewriter.typeString("Hey! I'm Pentalex")
     .callFunction(transition(), thisArg);
 
 
+
+    
