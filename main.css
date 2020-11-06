@@ -23,20 +23,24 @@ body{
 }
 .github{
     position: relative;
-    float: left;
-    height: 18%;
-    top: 60%;
+    float: right;
+    height: 3vw;
+    top: 64%;
+    right: 2%;
 }
 .youtube{
     position: relative;
-    height: 18%;
-    left: 1%;
-    top: 58%;
+    float: right;
+    height: 2.3vw;
+    top: 66%;
+    right: 4%;
 }
 .twitch{
     position: relative;
-    height: 22%;
-    top: 59%;
+    float: right;
+    height: 3vw;
+    right: 6%;
+    top: 65%;
 }
 
 
@@ -47,9 +51,9 @@ body{
     transform: translateY(-50%);
     max-height: 95%;
     max-width: 95%;
-    border-radius: 25px;
-    margin: 0 auto;
-    padding: 1.5%;
+    border-radius: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 
 }
 .heart-shape:before{
@@ -76,13 +80,14 @@ body{
     overflow: hidden;
     transform: translateY(-50%);  
 }
+
 .coolcard{
     position: relative;
     top: 20%;
     height: 20vw;
     width: 50vw;
     margin: 0 auto;
-    border-radius: 25px;
+    border-radius: 1vw;
     box-shadow: 0 0 2px rgb(195, 195, 195);
     overflow: hidden;
 }
@@ -99,3 +104,19 @@ body{
     transform: translateY(-50%);    
 }
 * { color:#fff; text-decoration: none;}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
