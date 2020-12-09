@@ -6,7 +6,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 donate.onclick = () => {
-    window.open("https://paypal.me/alex4160", "_blank");
+    window.open("https://ko-fi.com/pentalex", "_blank");
 };
 typewriter.typeString("Hey! I'm Pentalex")
     .pauseFor(1500)
